@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+dist/
+build/
+eggs/
+*.egg
+
+# Virtual environment
+venv/
+.env
+
+# Docker
+*.log
+docker-compose.override.yml
+
+# Airflow logs and artifacts
+airflow/logs/
+airflow/plugins/
+airflow/dags/__pycache__/
+airflow/dags/*.pyc
+airflow/dags/*.pyo
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VS Code settings
+.vscode/
+*.code-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
